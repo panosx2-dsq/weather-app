@@ -1,0 +1,30 @@
+body {
+    padding: 24px;
+}
+
+div.menu a {
+    font-size: 32px;
+    color: darkcyan;
+    padding: 8px;
+}
+
+p.createdBy {
+    font-size: 24px;
+    color: gray;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 50px;
+    font-style: bold;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    color: gray;
+    border: 16px;
+}
