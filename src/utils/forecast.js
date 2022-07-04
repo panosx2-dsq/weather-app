@@ -39,6 +39,7 @@ const getForecastObject = (searchTerm, location, forecast) => {
             feelsLike: forecast.feelslike + "C",
             humidity: forecast.humidity + '%',
             windSpeed: forecast.wind_speed + "km/h",
+            chancesOfRain: forecast.precip + "%",
             comments: forecast.weather_descriptions
         }
     }
